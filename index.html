@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title of the Program -->
+    <title>Discount Eligibilty Program</title>
+    <!-- Linking External CSS file -->
+    <link rel="stylesheet" href="src/styling.css" />
+    <!-- Google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div>
+      <div class="container">
+        <div class="content">
+          <h1>Discount Eligibility Program 💰💲💸</h1>
+          <br />
+
+          <!-- form  -->
+          <form id="form">
+            <!-- User input for Age  -->
+            <label for="age">Please enter your age here</label>
+            <br />
+            <input type="number" name="Age" id="age" />
+            <br />
+
+            <!-- User Input for Are you a member ? -->
+            <div class="member-padding">
+              <input type="checkbox" name="member-status" id="member" />
+              <label for="member">Are you a member?</label>
+            </div>
+
+            <!-- Eligibility calculate Button  -->
+            <button onclick="checkEligibility()">Check eligibility</button>
+            <p id="output"></p>
+          </form>
+          <!-- End of form  -->
+        </div>
+        <br />
+      </div>
+    </div>
+
+    <br />
+    <p>Coded with ♥ by Teboho Nthako</p>
+
+    <!-- JavaScript link  -->
+    <script src="src/index.js"></script>
+  </body>
+</html>
